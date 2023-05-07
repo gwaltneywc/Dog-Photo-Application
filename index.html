@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+    <head>
+        <title>DogPhotoApp</title>
+    </head>
+   <body>
+     <main>
+       <h1>DogPhotoApp</h1>
+       <section>
+       <h2>Dog Photos</h2>
+     <!--TODO: Add link to dog photos-->
+       <p>See more <a target="_blank" href="Dog Photo App Gallery.html">dog photos</a> in our gallery.</p>
+       <a href="https://mcdn.wallpapersafari.com/medium/74/98/WTrY3x.jpg"><img src="https://mcdn.wallpapersafari.com/medium/74/98/WTrY3x.jpg" alt="A cute dog with butterfly on its nose."></a>
+       </section>
+       <section>
+         <h2>Dog Lists</h2>
+         <h3>Things Dogs love:</h3>
+         <ul>
+            <li>dog bones</li>
+            <li>their owner</li>
+            <li>dog beef jerky</li>
+        </ul>
+        <figure>
+            <img src="https://www.thespruceeats.com/thmb/lJhXL0OIG59FVMYqaPu2LR8eY7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-brined-beef-jerky-recipe-1805861-hero-01-e24139243189406ea58c10bf5d07bcc2.jpg" alt="A plate of dog beef jerky.">
+        <figcaption>Dogs <em>love</em> beef jerky.</figcaption>
+        </figure>
+        <h3>Top 3 things dogs hate:</h3>
+        <ol>
+            <li>citrus scents</li>
+            <li>hot peppers</li>
+            <li>hugs</li>
+        </ol>
+        <figure>
+            <img src="https://www.treehugger.com/thmb/rraXKrnSgARiTqqeNzRwj48Okoc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/04-ec635673a6f04a45a00e7eb27a12e1b2.jpg" alt="A Person hugging a black dog.">  
+            <figcaption>Dogs <strong>hate</strong> hugs.</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h2>Dog Form</h2>
+        <form action="submit photo landing page.html">
+           <fieldset>
+            <legend>Is your Dog an indoor or outdoor dog?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+           </fieldset>
+           <fieldset>
+            <legend>What's your dog's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="guardian" checked> <label for="guardian">Guardian</label>
+            <input id="lazy" type="checkbox" name="personality" value="family dog"> <label for="family dog">Family Dog</label>
+            <input id="energetic" type="checkbox" name="personality" value="class clown"> <label for="class clown">Class Clown</label>   
+           </fieldset> 
+             <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+      </main>
+      <footer>
+        <p>No Copyright - <a href="https://www.github.com/gwaltneywc">github.com/gwaltneywc</a></p>
+      </footer>
+    </body>
+    </html>
